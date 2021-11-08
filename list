@@ -8,7 +8,7 @@ surge_ruleset=📹 YouTube,https://raw.githubusercontent.com/nameless3721/nash/m
 surge_ruleset=🎥 NETFLIX,https://raw.githubusercontent.com/nameless3721/nash/master/rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
 surge_ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/nameless3721/nash/master/rules/ConnersHua/Surge/Ruleset/Media/Bahamut.list
 surge_ruleset=📺 AbemaTV,https://raw.githubusercontent.com/nameless3721/nash/master/rules/ConnersHua/Surge/Ruleset/Media/AbemaTV.list
-surge_ruleset=📺 HBO_GO_HKG,https://raw.githubusercontent.com/nameless3721/nash/master/rules/ConnersHua/Surge/Ruleset/Media/HBO_GO_HKG.list
+surge_ruleset=📺 HBO_GO_HKG,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/HBO-Asia.list
 surge_ruleset=📺 DisneyPlus,https://raw.githubusercontent.com/nameless3721/nash/master/rules/ConnersHua/Surge/Ruleset/Media/DisneyPlus.list
 
 ;surge_ruleset=📺 自定媒体,rules/ConnersHua/Surge/Ruleset/Media/Spotify.list
