@@ -1,8 +1,9 @@
 url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=原生节点, server-tag-regex=(V2|(?i)原生)
 static=奈飞HK手动选择, server-tag-regex=(V2|(?i)香港)
 static=Disney+手动选择, server-tag-regex=(V2|(?i)香港|新加坡|台湾|美国)
-url-latency-benchmark=奈飞HK自动选择, server-tag-regex=(V2|(?i)香港|(?i)原生), check-interval=600, tolerance=50
-url-latency-benchmark=Disney+自动选择, server-tag-regex=(V2|(?i)香港|新加坡|台湾|美国), check-interval=600, tolerance=50
+url-latency-benchmark=奈飞HK自动选择, server-tag-regex=(?=.*(原生节点)|(?i)香港), check-interval=600, tolerance=50
+url-latency-benchmark=Disney+自动选择, server-tag-regex=(?=.*(原生节点)|(?i)香港|新加坡|台湾|美国), check-interval=600, tolerance=50
 static=特殊, server-tag-regex=^((?!(专线|手游|游戏|香港|台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|HK|TW|台灣|美國|韓國|獅城|账号|试用|流量|电报|网址|最新|域名|剩余|(?i)IPLC|IEPL|game|States|American|Singapore|Japan|Korea|Hong|Taiwan|data|date|website)).)*$, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/daji2.png
 url-latency-benchmark=香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=600, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 url-latency-benchmark=台湾, server-tag-regex=(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$, check-interval=600, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
@@ -14,7 +15,7 @@ static=苹果服务, direct, 美国, 香港, proxy, img-url=https://raw.githubus
 static=全球加速, proxy, 美国, 新加坡, 日本, 香港, 台湾, 特殊, IPLC, direct, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/wangzhaojun.png
 static=港台番剧, direct, 香港, 台湾, proxy, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/luna.png
 static=国际媒体, proxy, 美国, 新加坡, 日本, 香港, 台湾, 特殊, direct, V473T-2X-BGP-TW, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/daji.png
-static=Disney+, proxy, Disney+自动选择,奈飞HK手动选择,美国, 新加坡, 日本, 香港, 台湾, 特殊, direct,  img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/daji.png
+static=Disney+, proxy, Disney+自动选择,Disney+手动选择,美国, 新加坡, 日本, 香港, 台湾, 特殊, direct,  img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/daji.png
 static=HBO Asia, proxy, 美国, 新加坡, 日本, 香港, 台湾, 特殊, direct, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/daji.png
 static=声田音乐, proxy, 美国, 香港, 日本, direct, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/libai2.png
 static=网飞影视, proxy, 奈飞HK自动选择,奈飞HK手动选择,新加坡, 香港, 台湾, direct, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/wangzhe/bianque.png
