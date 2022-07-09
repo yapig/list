@@ -66,16 +66,16 @@ custom_proxy_group=🇸🇬 狮城节点自动选择`url-test`(新加坡|坡|狮
 custom_proxy_group=🇰🇷 韩国节点自动选择`url-test`(KR|Korea|KOR|首尔|韩|韩)`http://www.gstatic.com/generate_204`300
 
 ;香港Netflix处理
-custom_proxy_group=🎥 Netflix香港节点手动选择`select`^(?=.*?港|HK|Hong Kong)(?=.*?原生)
+custom_proxy_group=🎥 Netflix香港节点手动选择`select`(港|HK|Hong Kong)
 custom_proxy_group=🎥🔮 Netflix香港负载均衡`load-balance`^(?=.*?港|HK|Hong Kong)(?=.*?原生)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎥🔯 Netflix香港故障转移`fallback`^(?=.*?港|HK|Hong Kong)(?=.*?原生)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎥♻ Netflix香港自动选择`url-test`^(?=.*?港|HK|Hong Kong)(?=.*?原生)`http://www.gstatic.com/generate_204`300
 
 ;新加坡Netflix处理
-custom_proxy_group=🎥 Netflix狮城节点手动选择`select`^(?=.*?新加坡|坡|狮城|SG|Singapore)
-custom_proxy_group=🎥🔮 Netflix狮城负载均衡`load-balance`^(?=.*?新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🎥🔯 Netflix狮城故障转移`fallback`^(?=.*?新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🎥♻ Netflix狮城自动选择`url-test`^(?=.*?新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🎥 Netflix狮城节点手动选择`select`(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=🎥🔮 Netflix狮城负载均衡`load-balance`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🎥🔯 Netflix狮城故障转移`fallback`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🎥♻ Netflix狮城自动选择`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300
 
 
 ;台湾HBOGO处理
@@ -85,7 +85,7 @@ custom_proxy_group=台湾HBOGO故障转移`fallback`(台湾|新北|彰化|TW|Tai
 custom_proxy_group=台湾HBOGO自动选择`url-test`(台湾|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300
 
 ;DisneyPlus处理
-custom_proxy_group=🎥 DisneyPlus节点手动选择`select`^(?=.*?新加坡|坡|狮城|SG|Singapore)(?=.*?原生)
+custom_proxy_group=🎥 DisneyPlus节点手动选择`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=🎥🔮 DisneyPlus负载均衡`load-balance`^(?=.*?新加坡|坡|狮城|SG|Singapore)(?=.*?原生)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎥🔯 DisneyPlus故障转移`fallback`^(?=.*?新加坡|坡|狮城|SG|Singapore)(?=.*?原生)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎥♻ DisneyPlus自动选择`url-test`^(?=.*?新加坡|坡|狮城|SG|Singapore)(?=.*?原生)`http://www.gstatic.com/generate_204`300
