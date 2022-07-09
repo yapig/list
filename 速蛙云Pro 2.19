@@ -33,7 +33,8 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 custom_proxy_group=🔰 节点选择`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT`[]AUTO`[]🇭🇰 香港节点自动选择`[]🇸🇬 狮城节点自动选择`[]🇨🇳 台湾节点自动选择`[]🇯🇵 日本节点自动选择`[]🇺🇲 美国节点自动选择`[]🇰🇷 韩国节点自动选择
 custom_proxy_group=📲 电报吹水`select`[]🇸🇬 狮城节点`[]🔰 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📹 YouTube`select`[]🔰 节点选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT
-custom_proxy_group=🎥 NETFLIX`select`[]🇸🇬 狮城节点`[]🎥 奈非节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT`[]🇭🇰 香港节点自动选择`[]🇸🇬 狮城节点自动选择`[]🇨🇳 台湾节点自动选择`[]🇯🇵 日本节点自动选择`[]🇺🇲 美国节点自动选择`[]🇰🇷 韩国节点自动选择`[]🎥 Netflix香港节点手动选择`[]🎥🔮 Netflix香港负载均衡`[]🎥🔯 Netflix香港故障转移`[]🎥♻ Netflix香港自动选择`[]🎥 DisneyPlus节点手动选择`[]🎥🔮 DisneyPlus负载均衡`[]🎥🔯 DisneyPlus故障转移`[]🎥♻ DisneyPlus自动选择
+custom_proxy_group=🎥 NETFLIX`select`[]🇸🇬 狮城节点`[]🎥 奈非节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT`[]🇭🇰 香港节点自动选择`[]🇸🇬 狮城节点自动选择`[]🇨🇳 台湾节点自动选择`[]🇯🇵 日本节点自动选择`[]🇺🇲 美国节点自动选择`[]🇰🇷 韩国节点自动选择`[]🎥 Netflix香港节点手动选择`[]🎥🔮 Netflix香港负载均衡`[]🎥🔯 Netflix香港故障转移`[]🎥♻ Netflix香港自动选择
+`[]🎥 Netflix狮城节点手动选择`[]🎥🔮 Netflix狮城负载均衡`[]🎥🔯 Netflix狮城故障转移`[]🎥♻ Netflix狮城自动选择
 custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾节点`[]🔰 节点选择`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📺 AbemaTV`select`[]🇯🇵 日本节点`[]🔰 节点选择`[]🚀 其他节点`[]🚀 手动切换`[]DIRECT
 custom_proxy_group=📺 HBO_GO_HKG`select`[]🔰 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🚀 其他节点`[]🚀 手动切换`[]🇭🇰 香港节点自动选择`[]🇸🇬 狮城节点自动选择`[]🇨🇳 台湾节点自动选择`[]🇯🇵 日本节点自动选择`[]🇺🇲 美国节点自动选择`[]🇰🇷 韩国节点自动选择`[]台湾HBOGO手动选择`[]台湾HBOGO负载均衡`[]台湾HBOGO故障转移`[]台湾HBOGO自动选择
@@ -70,6 +71,13 @@ custom_proxy_group=🎥 Netflix香港节点手动选择`select`^(?=.*?港|HK|Hon
 custom_proxy_group=🎥🔮 Netflix香港负载均衡`load-balance`^(?=.*?港|HK|Hong Kong)(?=.*?原生)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎥🔯 Netflix香港故障转移`fallback`^(?=.*?港|HK|Hong Kong)(?=.*?原生)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎥♻ Netflix香港自动选择`url-test`^(?=.*?港|HK|Hong Kong)(?=.*?原生)`http://www.gstatic.com/generate_204`300
+
+;新加坡Netflix处理
+custom_proxy_group=🎥 Netflix狮城节点手动选择`select`^(?=.*?新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=🎥🔮 Netflix狮城负载均衡`load-balance`^(?=.*?新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🎥🔯 Netflix狮城故障转移`fallback`^(?=.*?新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🎥♻ Netflix狮城自动选择`url-test`^(?=.*?新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300
+
 
 ;台湾HBOGO处理
 custom_proxy_group=台湾HBOGO手动选择`select`(台湾|新北|彰化|TW|Taiwan)
