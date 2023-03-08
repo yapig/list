@@ -15,6 +15,7 @@ surge_ruleset=📺 DisneyPlus,https://raw.githubusercontent.com/nameless3721/nas
 ;媒体list名字清单https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/Ruleset
 surge_ruleset=📲 电报吹水,https://raw.githubusercontent.com/nameless3721/nash/master/rules/ConnersHua/Surge/Ruleset/Telegram.list
 surge_ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+surge_ruleset=🌍 国外媒体,https://raw.githubusercontent.com/yapig/list/main/Rule/haiwaikan.list
 surge_ruleset=🌏 ChinaDomai,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 surge_ruleset=🌏 Chinaip,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 surge_ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
@@ -27,7 +28,7 @@ surge_ruleset=DIRECT,https://raw.githubusercontent.com/nameless3721/nash/master/
 surge_ruleset=DIRECT,rules/NobyDa/Surge/Download.list
 surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
-- DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
+
 ;设置规则标志位
 
 ;设置分组标志位
