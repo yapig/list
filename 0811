@@ -27,7 +27,7 @@ surge_ruleset=DIRECT,https://raw.githubusercontent.com/nameless3721/nash/master/
 surge_ruleset=DIRECT,rules/NobyDa/Surge/Download.list
 surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
-DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
+- DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
 ;设置规则标志位
 
 ;设置分组标志位
